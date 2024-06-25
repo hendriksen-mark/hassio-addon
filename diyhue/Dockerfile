@@ -49,7 +49,7 @@ RUN unzip -qo diyHueUI.zip -d diyhueUI
 RUN rm diyHueUI.zip
 RUN cp -r /diyhueUI/index.html			/opt/hue-emulator/flaskUI/templates/
 RUN cp -r /diyhueUI/static			/opt/hue-emulator/flaskUI/
-RUN rm -r /diyhueUI/static
+RUN rm -r /diyhueUI
 
 RUN apk --no-cache add --virtual build-deps gcc git make musl-dev \
 	&& git clone https://github.com/wolfcw/libfaketime \
