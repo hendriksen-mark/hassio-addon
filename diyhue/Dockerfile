@@ -23,8 +23,8 @@ RUN apk add -q -u python3 openssl nmap psmisc iproute2 alpine-sdk build-base
 RUN apk add --no-cache bluez
 
 # Download diyhue and untar it
-RUN curl -sL -o diyhue.zip https://github.com/diyhue/diyhue/archive/master.zip
-#RUN curl -sL -o diyhue.zip https://github.com/hendriksen-mark/diyhue/archive/master.zip
+#RUN curl -sL -o diyhue.zip https://github.com/diyhue/diyhue/archive/master.zip
+RUN curl -sL -o diyhue.zip https://github.com/hendriksen-mark/diyhue/archive/master.zip
 RUN unzip -qo diyhue.zip
 RUN rm diyhue.zip
 RUN pip3 install -r  /diyHue-master/requirements.txt --no-cache-dir
@@ -43,7 +43,8 @@ RUN cp -r  /diyHue-master/BridgeEmulator/githubInstall.sh /opt/hue-emulator/
 RUN cp -r  /diyHue-master/BridgeEmulator/genCert.sh  /diyHue-master/BridgeEmulator/openssl.conf	/opt/hue-emulator/
 
 
-RUN curl -sL -o diyHueUI.zip https://github.com/diyhue/diyHueUI/releases/latest/download/DiyHueUI-release.zip
+#RUN curl -sL -o diyHueUI.zip https://github.com/diyhue/diyHueUI/releases/latest/download/DiyHueUI-release.zip
+RUN curl -sL -o diyHueUI.zip https://github.com/hendriksen-mark/diyHueUI/releases/latest/download/DiyHueUI-release.zip
 RUN mkdir diyhueUI
 RUN unzip -qo diyHueUI.zip -d diyhueUI
 RUN rm diyHueUI.zip
