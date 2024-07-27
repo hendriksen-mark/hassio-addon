@@ -67,17 +67,12 @@ Here you can enter the IP-Address of your Deconz instance.
 
 ## Sidepanel Link
 
-Add the following to your HA _configuration.yaml_ to get a Navigation Link in the Sidepanel
-
-```yaml
-
-panel_iframe:
-  diyhue:
-    title: "diyHue"
-    icon: mdi:home-lightbulb
-    url: "http://homeassistant:80"
-    
- ```
+Go to settings > Dashboards > Add Dashboards > Webpage
+For url enter `http://homeassistant.local:80`
+Hit next.
+For Title enter `diyHue`
+For Icon enter `mdi:home-lightbulb`
+Hit create.
  
 
 ## Known issues and limitations
