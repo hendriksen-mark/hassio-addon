@@ -93,14 +93,18 @@ Releases are based on [Semantic Versioning][semver], and use the format of `MAJO
 
 Got questions?
 
+Please use GitHub, Slack or Discourse, other platforms are not checked by the maintainers.
+
 You have several options to get them answered:
 
 -    The [Home Assistant Discord chat server][discord-ha] for general Home Assistant discussions and questions.
 -    The Home Assistant [Community Forum][forum].
 -    The diyHue Discord Channel [diyHue Discord](https://diyhue.discourse.group)
--    The diyHue Slack Channel [diyHue Slack](https://join.slack.com/t/diyhue/shared_invite/enQtNzAwNDE1NDY2MzQxLTljNGMwZmE0OWRhNDIwM2FjOGM1ZTcxNjNmYjc5ZmE3MjZlNmNjMmUzYmRkZjhhOGNjOTc4NzA0MGVkYzE2NWM)
+-    The diyHue Slack Channel [diyHue Slack](https://diyhue.slack.com/)
 
-You could also [open an issue here](https://github.com/diyhue/hassio-adddon/issues) GitHub.
+You could also open an issue here:
+[For HA related issues](https://github.com/diyhue/hassio-adddon/issues).
+[For DiyHue related issues](https://github.com/diyhue/diyHue/issues).
 
 
 ## Authors & contributors
