@@ -23,6 +23,13 @@ If you've found the Add-on helpful or useful, then please consider throwing a co
 ## Installation
 
 The installation process is pretty easy and straight forward, like for any other third-party Home Assistang Add-on.
+You can choose from 2 branches:
+
+    Master Branch - most stable Release
+    Developer Branch - test latest features and fixes - Work in Progress!
+
+Master is slected by default.
+To select the dev branch add **#dev** at the end of the url.
 
 Add the repository URL under **Supervisor → Add-on store → ⋮ → Manage add-on repositories**:
 

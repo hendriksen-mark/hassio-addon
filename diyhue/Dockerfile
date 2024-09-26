@@ -14,6 +14,7 @@ ENV BUILD_ARCHI = ${BUILD_ARCH}
 ENV LANG C.UTF-8
 ENV DIYHUE_VERSION=master
 ENV WORKING_DIR=/opt/hue-emulator
+ENV BRANCH=dev
 
 # Create the needed folders
 RUN mkdir diyhue config ${WORKING_DIR}
@@ -23,8 +24,8 @@ RUN apk add -q -u python3 openssl nmap psmisc iproute2 alpine-sdk build-base
 RUN apk add --no-cache bluez
 
 # Download diyhue and untar it
-#RUN curl -sL -o diyhue.zip https://github.com/diyhue/diyhue/archive/master.zip
-RUN curl -sL -o diyhue.zip https://github.com/hendriksen-mark/diyhue/archive/master.zip
+#RUN curl -sL -o diyhue.zip https://github.com/diyhue/diyhue/archive/dev.zip
+RUN curl -sL -o diyhue.zip https://github.com/hendriksen-mark/diyhue/archive/dev.zip
 RUN unzip -qo diyhue.zip
 RUN rm diyhue.zip
 RUN pip3 install -r  /diyHue-master/requirements.txt --no-cache-dir
