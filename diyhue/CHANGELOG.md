@@ -2,7 +2,58 @@
 
 All notable changes to this project will be documented in this file. The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.0.26 - 24.11.2024]
+### add
+    - Add effect_v2
+    - Add effects to mqtt
 
+## [2.0.25 - 18.11.2024]
+### fix
+    - fix addon install
+
+## [2.0.24 - 18.11.2024]
+### fix
+    - fix addon install
+
+## [2.0.23 - 18.11.2024]
+### fix
+    - fix addon install
+
+## [2.0.22 - 18.11.2024]
+### fix
+    - fix addon install
+
+## [2.0.21 - 18.11.2024]
+### remove
+ - remove deconz from options, setup via webui, see main repo for more info
+### update
+ - move to vite, see main repo for more info
+
+## [2.0.20 - 26.10.2024]
+### Fix
+ - fix unsupported operand type(s) for /: 'NoneType' and 'int'
+### Add
+ - Add XY light
+
+## [2.0.19 - 1.10.2024]
+### Fix
+ - fix AttributeError: 'list' object has no attribute 'name', see main repo for more info
+
+## [2.0.18 - 27.9.2024]
+### Fix
+ - fix ZeroDivisionError: division by zero, see main repo for more info
+
+## [2.0.17 - 21.9.2024]
+### Fix
+ - Allot of fixes, see main repo for more info
+
+## [2.0.16 - 2.9.2024]
+### Fix
+ - Allot of fixes, see main repo for more info
+
+## [2.0.15 - 10.8.2024]
+### Fix
+ - fix grouped_light owner missing
 
 ## [2.0.14 - 24.3.2024]
 ### Fix
@@ -68,7 +119,7 @@ All notable changes to this project will be documented in this file. The format 
 ### Update
  - update swversion to 1952086020
 
- 
+
 ## [2.0.2 - 24.6.2022]
 
 ### Update
@@ -87,7 +138,7 @@ All notable changes to this project will be documented in this file. The format 
 
 Official diyHue Hassio Addon Release
 
-This addon is only compatible with the "BETA" of the initial addon Release by Max. 
+This addon is only compatible with the "BETA" of the initial addon Release by Max.
 At this point we would like to thank Max for his great work upon we will continue this Addon.
 Max and diyhue agreed to make this Addon official.
 
