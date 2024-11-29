@@ -6,6 +6,8 @@ All notable changes to this project will be documented in this file. The format 
 ### add
     - Add effect_v2
     - Add effects to mqtt
+### info
+    - disable backup if you get a error "Unsuccessful websocket message"
 
 ## [2.0.25 - 18.11.2024]
 ### fix
