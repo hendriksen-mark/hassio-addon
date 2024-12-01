@@ -5,6 +5,7 @@
 <p>Run <a href="https://diyhue.org">diyHue</a> as a Home Assistant Add-on</p>
 </div>
 
+[![Install diyHue into Home Assistant](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Fdiyhue%2Fhassio-addon)
 ## About
 
 diyHue provides a Ecosystem for several Smart Home Solutions, eliminating the need for vendor specific Bridges and Hardware. Written in Python and Open Source, you are now able to import and control all your Lights and Sensors into one System. Lightweight and resource friendly, to run on small
@@ -28,6 +29,9 @@ Add the repository URL under **Supervisor → Add-on store → ⋮ → Manage ad
 
     https://github.com/diyhue/hassio-addon
 
+To use the Dev bransh add `#dev` to the url, before using the dev bransh you need to remove your current config files to prevent errors, also when moving back to master you need to remove your dev config, be aware this is still in development and problems may occur.
+
+    https://github.com/diyhue/hassio-addon#dev
 
 ## Changelog
 
